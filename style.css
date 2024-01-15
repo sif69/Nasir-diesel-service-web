@@ -1,0 +1,104 @@
+h1 {
+    color:black;
+    text-align:center;
+    padding:20px;
+}
+
+/* p {color:rgb(21, 0, 255);} */
+
+.nure{
+    /* color:aquamarine;
+    font-size:35px;
+    background-color: blueviolet; */
+    background-color: whitesmoke;
+    border: 3px solid brown;
+    padding: 40px 40px 40px 40px;
+    margin: 50px;
+    font-size: 80px;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 60%;
+}
+
+.tube{
+    background-color: #008B8B;
+    border : 1px solid black;
+}
+#main-p-tag{
+    background-color: rgb(10 64 175 / 75%);
+    font-size: medium;
+    color:white;
+}
+
+.btn1{
+    border-radius: 60%;
+    cursor:pointer;
+    background-color: orange;
+    color: black;
+    padding : 20px;
+    margin: 50px 300px 50px 300px;
+
+}
+.fullscreen{
+ 
+            height: 50%;
+            width : 120%;
+           
+    
+}
+.description{
+     width:60%;
+     font-size: 40px;
+     padding :20px 40px 20px 20px;
+     margin : 30px 90px 30px 240px;
+    
+     border : 4.5px solid black;
+     
+     text-align: center;
+     background-size: auto;
+     background-color: cadetblue;
+}
+.end{
+    
+    /* padding :20px 30px 20px 20px;
+    margin : 30px 50px 30px 50px; */
+    height:60%;
+    width:99%;
+   
+    border : 4.5px solid black;
+    
+    /* text-align: center; */
+    background-size: auto;
+    background-color: cadetblue;
+}
+.pic{
+    max-width: 20%;
+    box-shadow: 10px 10px 10px coral;
+    margin:20px 40px;
+}
+
+
+.hero{
+    display:flex;
+    flex-direction: row;
+    align-items:safe;
+    justify-content: space-between;
+}
+.intro{
+    max-width:40%;
+    border: 3px solid black;
+    border-radius: 40%;
+    padding:25px 25px;
+    background-color: #008B8B;
+}
+/* .further{
+     display: flex;
+     flex-direction: column;
+     justify-content:end;
+} */
+@media only screen and(max-width:400px){
+    .card{
+        width:90%;
+        height: 90%;
+    }
+    
+}
