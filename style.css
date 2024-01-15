@@ -27,6 +27,7 @@ h1 {
     background-color: rgb(10 64 175 / 75%);
     font-size: medium;
     color:white;
+    font-size:35px;
 }
 
 .btn1{
@@ -95,10 +96,13 @@ h1 {
      flex-direction: column;
      justify-content:end;
 } */
-@media only screen and(max-width:400px){
+/* @media only screen and(max-width: 800px){
     .card{
-        width:90%;
-        height: 90%;
+        width:100%;
+        height: 100%;
     }
     
-}
+} */
+
+@media only screen and (min-device-width: 393px) and (orientation: portrait) { /* Your Styles... */ }
+@media only screen and (min-device-width: 851px) and (orientation: landscape) { /* Your Styles... */ }
